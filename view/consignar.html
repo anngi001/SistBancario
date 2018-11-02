@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <script>
+        window.$ = window.jQuery = require('jquery');
+    </script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="/index.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid background-color">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar">
+
+                    <div class="menu">
+                        <ul>
+                            <li><a href="home.html">Inicio</a></li>
+                            <li><a href="retirar.html">Retirar</a></li>
+                            <li><a href="tranferir.html">Transferir</a></li>
+                            <li><a href="#" class="active">Consignar</a></li>
+                            <li><a href="#" id="close">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="col-md-12">
+                    <div class="container-fluid">
+                        <div class="content">
+                                <div class="contenedor-form">
+                                        <form id="form-login">
+                                                <center>
+                                            <input type="text" id="userConsignar" placeholder="Valor a Consignar" required>
+                                            <input type="submit" id="submitonsignar" value="Consignar">
+                                                </center>
+                                        </form>
+                                        </div>
+                                        </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

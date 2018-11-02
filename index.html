@@ -2,22 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login |Programación Web|</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script>
+        window.$=window.jQuery = require('jquery');
+    </script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
     <div class="contenedor-form">
         <div class="toggle">
             <span> Crear Cuenta</span>
         </div>
-        
+          
         <div class="formulario">
             <h2>Iniciar Sesión</h2>
+            <form id="form-login">
             <form action="#">
-                <input type="text" placeholder="Usuario" required>
-                <input type="password" placeholder="Contraseña" required>
-                <input type="submit" value="Iniciar Sesión">
+                <input type="text" id="user" placeholder="Usuario" required>
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <input type="submit" id="submit" value="Iniciar Sesión">
             </form>
+        </form>
         </div>
         
         <div class="formulario">

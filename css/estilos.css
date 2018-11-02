@@ -7,7 +7,8 @@
 }
 
 body {
-    background: url(../img/FondoLogin5.jpg);
+    margin: 0;
+    background: url(../img/FondoLogin.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-family: Roboto;
