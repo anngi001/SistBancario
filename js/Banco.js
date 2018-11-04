@@ -6,11 +6,11 @@ var cliente = {
     saldo: 33.22
 }
 
-var add_dinero = function(valor){
+var add_dinheiro = function(valor){
    cliente.saldo = cliente.saldo + valor;
 }
 
-var remover_dinero = function(valor){
+var remover_dinheiro = function(valor){
     cliente.saldo = cliente.saldo - valor;
 }
 
@@ -26,8 +26,9 @@ var consultar_cliente = function(){
     console.log('Saldo: ' + cliente.saldo);
 }
 
-add_dinero(200);
+add_dinheiro(200);
 consultar_saldo();
-remover_dinero(50);
+remover_dinheiro(50);
 consultar_saldo();
+
 

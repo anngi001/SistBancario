@@ -15,7 +15,7 @@ $(document).ready(function(){
             alert('El usuario no exite');
         
         }}
-        
+            
     });
 
     $('#close').click(function(){
